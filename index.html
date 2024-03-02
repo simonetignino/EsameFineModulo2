@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cerchi Lavoro?</h1>
+    <!-- Creo un div dove inserisco i 3 box -->
+    <div class="container">
+
+        <!-- Box dove metterò l'impeigo -->
+        <div id="job">
+            <input id="work" type="text" placeholder="Cosa cerchi?">
+        </div>
+
+        <!-- Box dove metterò il luogo -->
+        <div id="dove">
+            <input id="where" type="text" placeholder="Dove?">
+        </div>
+
+        <!-- Box dove metterò il pulsante cerca -->
+        <div onclick="search()" id="search">
+            <button id="button">Cerca</button>
+        </div>
+    </div>
+    <div class="tabella">
+        <table id="tab">
+            <caption>
+                <p>Ecco i risultati</p>
+                <p class="annunci"></p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Impiego</th>
+                    <th>Località</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="prova">
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scaricabile.js"></script>
+</body>
+
+</html>
